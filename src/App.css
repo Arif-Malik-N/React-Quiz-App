@@ -1,0 +1,48 @@
+
+
+.questions{
+  background-color: royalblue;
+ 
+  padding: 3%;
+  text-align: center;
+}
+.list{
+  background-color: royalblue;
+  padding: 5%;
+
+}
+.options{
+  background-color:white;
+  margin: 5px auto;
+  padding: 1%;
+  list-style: none;
+
+  cursor: pointer;
+}
+.clicked{
+  background-color:lightblue;
+  padding: 1%;
+ 
+  margin: 5px auto;
+  list-style: none;
+  cursor: pointer;
+}
+.list[disabled] {
+  pointer-events: none;
+
+}
+.result{
+  padding: 5%;
+  text-align: center;
+  background-color: royalblue;
+  margin-top: 5%;
+}
+button{
+  background-color:rgb(65, 105, 225) ;
+  width: 50%;
+  height: 40px;
+  margin-left: 25%;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
